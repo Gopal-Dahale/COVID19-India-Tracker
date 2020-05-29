@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "35552287728",
+    "firebase_url": "https://covid19-india-tracker-63657.firebaseio.com",
+    "project_id": "covid19-india-tracker-63657",
+    "storage_bucket": "covid19-india-tracker-63657.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:35552287728:android:5f6abd7a636c0eca901b35",
+        "android_client_info": {
+          "package_name": "com.bhagvada.covid19_india_tracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "35552287728-8vk3c69edlcd7vmbfakgglp0stlv4cqi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdtIrjuwvydkskTMihJTuZ6UR-6xNxFus"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "35552287728-8vk3c69edlcd7vmbfakgglp0stlv4cqi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,150 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background: #fcf6f5;
+}
+
+.color0 {
+  fill: #ffffb2 !important;
+}
+.color1 {
+  fill: #fed976 !important;
+}
+.color2 {
+  fill: #feb24c !important;
+}
+.color3 {
+  fill: #fd8d3c !important;
+}
+.color4 {
+  fill: #f03b20 !important;
+}
+.color5 {
+  fill: #bd0026 !important;
+}
+
+.container {
+  text-align: center;
+}
+.map {
+  display: inline-block;
+}
+.map svg path {
+  fill: white;
+  stroke-width: 1px;
+  stroke: red;
+  transition: fill 0, 3s;
+}
+
+.map svg path:active {
+  stroke-width: 3px;
+}
+
+.map-stats {
+  display: flex;
+  flex-direction: row;
+  align-content: flex-start;
+  z-index: 10;
+  text-align: start;
+  margin-bottom: 1rem;
+}
+.stats {
+  padding: 1rem;
+  margin-left: 1rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  padding: 0rem 1.5rem 0rem 0.5rem;
+  width: 7rem !important;
+  max-width: 7rem;
+  height: 6.4rem !important;
+  max-height: 6rem;
+  line-height: 0.2rem;
+  border-radius: 0.5rem;
+}
+.stats-bottom {
+  line-height: 0rem;
+}
+
+.stats h5 {
+  margin-top: 1rem;
+}
+
+.confirmed {
+  background-color: rgb(255, 224, 230);
+}
+.active {
+  background-color: rgb(226, 238, 253);
+}
+.recovered {
+  background-color: rgb(228, 244, 231);
+}
+.deceased {
+  background-color: rgb(246, 246, 247);
+}
+
+h5,
+h6 {
+  font-size: medium;
+}
+h1 {
+  font-size: xx-large;
+}
+.confirmed h5,
+#deltaconfirmed-data {
+  color: rgb(255, 100, 131);
+}
+.active h5,
+#deltaactive-data {
+  color: rgb(104, 176, 255);
+}
+.recovered h5,
+#deltarecovered-data {
+  color: rgb(118, 198, 136);
+}
+.deceased h5,
+#deltadeceased-data {
+  color: rgb(165, 170, 175);
+}
+
+#confirmed-data {
+  color: rgb(255, 32, 78);
+}
+#active-data {
+  color: rgb(1, 123, 255);
+}
+#recovered-data {
+  color: rgb(59, 175, 85);
+}
+#deceased-data {
+  color: rgb(108, 117, 125);
+}
+
+#stateName {
+  text-align: center;
+  font-size: x-large;
+  font-weight: bold;
+  color: #990011;
+  margin-top: 1rem;
+  margin-bottom: 2.5rem;
+}
+
+#total-counts {
+  display: flex;
+  justify-content: center;
+}
+
+#button {
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  background-color: #fcf6f5;
+  color: black;
+  border: 2px solid #990011;
+}
+
+#button:active {
+  background-color: #990011;
+  color: #fcf6f5;
+}
